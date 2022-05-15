@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".eight">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+
+    <RelativeLayout
+        android:id="@+id/Page_8"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#D8CAFF"
+        android:clipToOutline="true"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:targetApi="s">
+
+        <TextView
+            android:id="@+id/tod"
+            android:layout_width="224dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="74dp"
+            android:layout_marginEnd="105dp"
+            android:drawableLeft="@drawable/ic_glitters"
+            android:drawableRight="@drawable/ic_tick"
+            android:text="@string/today_s_goals"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#26238C" />
+
+
+        <TextView
+            android:layout_width="188dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="129dp"
+            android:layout_marginBottom="468dp"
+            android:drawableLeft="@drawable/ic_emoji"
+            android:text="TODAY, MAY 15"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#F699CD"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="113dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="155dp"
+            android:layout_marginEnd="142dp"
+            android:layout_marginBottom="493dp"
+            android:text="Meh  9:31AM"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="84dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="264dp"
+            android:layout_marginBottom="398dp"
+            android:drawableLeft="@drawable/ic_baseline_fam"
+            android:text="Family"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="134dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="71dp"
+            android:layout_marginBottom="398dp"
+            android:drawableLeft="@drawable/ic_tv"
+            android:text="movies and tv"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="246dp"
+            android:layout_marginBottom="350dp"
+            android:drawableLeft="@drawable/ic_bed"
+            android:text="Bad sleep"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="104dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="94dp"
+            android:layout_marginBottom="261dp"
+            android:drawableLeft="@drawable/ic_clean"
+            android:text="cleaning"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="241dp"
+            android:layout_marginBottom="260dp"
+            android:drawableLeft="@drawable/ic_medicine"
+            android:text="meditation"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="108dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="88dp"
+            android:layout_marginBottom="306dp"
+            android:drawableLeft="@drawable/ic_water"
+            android:text="drink water"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="243dp"
+            android:layout_marginBottom="304dp"
+            android:drawableLeft="@drawable/ic_home"
+            android:text="Homemade"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="84dp"
+            android:layout_marginBottom="350dp"
+            android:drawableLeft="@drawable/ic_food"
+            android:text="fast food"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="219dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="99dp"
+            android:layout_marginBottom="147dp"
+            android:text="@string/message"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#2C4271" />
+
+        <TextView
+            android:layout_width="74dp"
+            android:layout_height="45dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="173dp"
+            android:layout_marginBottom="88dp"
+            android:drawableStart="@drawable/ic_surf" />
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
