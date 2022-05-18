@@ -35,7 +35,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:layout_marginStart="103dp"
+            android:layout_marginStart="122dp"
             android:layout_marginTop="317dp"
             android:background="#84BDF1"
             android:fontFamily="sans-serif-medium"
@@ -48,12 +48,13 @@
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:layout_marginStart="103dp"
+            android:layout_marginStart="122dp"
             android:layout_marginTop="396dp"
             android:background="#84BDF1"
             android:fontFamily="sans-serif-medium"
             android:gravity="center"
             android:text="@string/no" />
+
 
         <Button
             android:id="@+id/dont"
@@ -61,15 +62,12 @@
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:layout_marginStart="101dp"
+            android:layout_marginStart="124dp"
             android:layout_marginTop="473dp"
             android:background="#84BDF1"
             android:fontFamily="sans-serif-medium"
             android:gravity="center"
             android:text="@string/don_t_know" />
-
-
-
 
         <ImageView
             android:layout_width="219dp"
@@ -80,12 +78,12 @@
             tools:ignore="ContentDescription" />
 
         <Button
-            android:id="@+id/btn2"
+            android:id="@+id/button2"
             android:layout_width="229dp"
             android:layout_height="54dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:layout_marginStart="63dp"
+            android:layout_marginStart="92dp"
             android:layout_marginTop="571dp"
             android:background="#26238C"
             android:fontFamily="sans-serif-medium"

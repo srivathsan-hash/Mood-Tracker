@@ -13,7 +13,7 @@ public class three extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_three);
-        button=(Button) findViewById(R.id.btn2);
+        button=(Button) findViewById(R.id.button2);
         button.setOnClickListener(view -> openfour());
     }
     public void openfour(){

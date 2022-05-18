@@ -24,5 +24,16 @@
     <string name="today_s_goals">Today\'s Goals</string>
     <string name="fin">FINISH</string>
     <string name="message">This has been your first entry.Now lets make some history!!!</string>
+    <string name="mood">Mood Tracker</string>
+    <string name="fast_food">fast food</string>
+    <string name="homemade">Homemade</string>
+    <string name="drink_water">drink water</string>
+    <string name="today_may_15">TODAY, MAY 15</string>
+    <string name="meh_9_31am">Meh 9:31AM</string>
+    <string name="family">Family</string>
+    <string name="movies_and_tv">movies and tv</string>
+    <string name="bad_sleep">Bad sleep</string>
+    <string name="cleaning">cleaning</string>
+    <string name="meditation">meditation</string>
 
 </resources>

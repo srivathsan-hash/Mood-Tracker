@@ -1,21 +1,29 @@
 package com.example.moodtracker;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
 
+
+import android.content.Intent;
 import android.os.Bundle;
+import android.widget.Button;
 
-import java.util.Objects;
 
 public class eight extends AppCompatActivity {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_eight);
-        Toolbar toolbar=findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        Button button = findViewById(R.id.button1);
+
+        button.setOnClickListener(view -> eight.this.opened());
+    }
+    public void opened(){
+        Intent intent=new Intent(this, MainActivity.class);
+        startActivity(intent);
+
+
 
 
     }

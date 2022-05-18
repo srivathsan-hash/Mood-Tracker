@@ -14,7 +14,6 @@
             android:exported="false" />
         <activity
             android:name=".eight"
-            android:parentActivityName=".seven"
             android:exported="false" />
         <activity
             android:name=".six"
@@ -28,12 +27,7 @@
         <activity
             android:name=".three"
             android:exported="false" />
-        <activity
-            android:name=".MainActivity3"
-            android:exported="false" />
-        <activity
-            android:name=".third"
-            android:exported="false" />
+
         <activity
             android:name=".two"
             android:exported="false" />

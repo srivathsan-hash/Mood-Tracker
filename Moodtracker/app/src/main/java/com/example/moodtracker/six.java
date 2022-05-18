@@ -12,7 +12,7 @@ public class six extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_six);
-        Button button = (Button) findViewById(R.id.btn2);
+        Button button = (Button) findViewById(R.id.button2);
         button.setOnClickListener(view -> openseven());
     }
     public void openseven(){

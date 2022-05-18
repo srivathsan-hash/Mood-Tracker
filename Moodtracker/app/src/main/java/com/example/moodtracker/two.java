@@ -14,7 +14,7 @@ public class two extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_two);
 
-        button=(Button) findViewById(R.id.btn2);
+        button=(Button) findViewById(R.id.button2);
         button.setOnClickListener(view -> openthree());
     }
     public void openthree(){

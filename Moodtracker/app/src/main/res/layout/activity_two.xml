@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
         ]]>
 
         <TextView
@@ -34,7 +38,7 @@
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_marginStart="86dp"
-            android:layout_marginTop="167dp"
+            android:layout_marginTop="184dp"
             android:text="@string/enter_your_"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="#000000" />
@@ -46,7 +50,7 @@
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_marginStart="92dp"
-            android:layout_marginTop="203dp"
+            android:layout_marginTop="235dp"
             android:background="#84BDF1" />
 
         <TextView
@@ -56,7 +60,7 @@
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_marginStart="86dp"
-            android:layout_marginTop="306dp"
+            android:layout_marginTop="329dp"
             android:gravity="top"
             android:text="@string/select_your"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
@@ -93,10 +97,10 @@
             android:layout_alignParentTop="true"
             android:layout_marginStart="0dp"
             android:layout_marginTop="12dp"
-            android:src="@drawable/page_2" />
+            android:src="@drawable/mood" />
 
         <Button
-            android:id="@+id/btn2"
+            android:id="@+id/button2"
             android:layout_width="229dp"
             android:layout_height="54dp"
             android:layout_alignParentStart="true"
